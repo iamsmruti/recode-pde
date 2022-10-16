@@ -1,6 +1,6 @@
 {
   "name": "recode-pde",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to hot reload Processing sketches",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,11 @@
   },
   "author": "Smruti Ranjan Badatya <smrutiranjanbadatya2@gmail.com> (https://github.com/iamsmruti)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamsmruti/recode-pde"
+  },
+  "homepage": "https://github.com/iamsmruti/recode-pde",
   "publishConfig": {
     "access": "public",
     "main": "index.js",
