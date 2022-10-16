@@ -1,0 +1,34 @@
+{
+  "name": "recode-pde",
+  "version": "1.0.1",
+  "description": "A CLI tool to hot reload Processing sketches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "processing",
+    "pde",
+    "hot",
+    "reload",
+    "cli",
+    "processing cli",
+    "processing auto reload",
+    "auto"
+  ],
+  "bin": {
+    "reload": "index.js"
+  },
+  "author": "Smruti Ranjan Badatya <smrutiranjanbadatya2@gmail.com> (https://github.com/iamsmruti)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "main": "index.js",
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "chokidar": "^3.5.3",
+    "tree-kill": "^1.2.2"
+  }
+}
