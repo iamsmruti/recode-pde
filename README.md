@@ -11,7 +11,7 @@ Thank Me Later! 😛
 Install with npm
 
 ```bash
-  npm i recode-pde
+  sudo npm i recode-pde -g
 ```
     
 ## Usage
